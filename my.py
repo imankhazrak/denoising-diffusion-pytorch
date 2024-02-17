@@ -16,7 +16,7 @@ diffusion = GaussianDiffusion(
 
 trainer = Trainer(
     diffusion,
-    r'C:\0_Git_Iman\All BGSU Projcts\Z. RA & Desertation\DDPM\Code\Code_5 well illustrate\denoising-diffusion-pytorch\images\daisy',
+    r'/home/ikhazra/denoising-diffusion-pytorch/images/daisy',
     train_batch_size = 8,
     train_lr = 8e-5,
     train_num_steps = 7,         # total training steps
